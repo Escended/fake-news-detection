@@ -1,3 +1,4 @@
 {
-    "python.dataScience.jupyterCommandLineArguments": []
+    "python.dataScience.jupyterCommandLineArguments": [],
+    "python.pythonPath": "C:\\Users\\Eli\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
 }
