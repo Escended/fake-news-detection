@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fake News Detector</title>
+    <link href='https://fonts.googleapis.com/css?family=Gotu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<style>
+    body {
+        {#background values#}
+        background-image: url('/static/img/bg2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+<body>
+
+
+<div id="main_header">
+    <h2>Fake News Detector Using Logistic Regression and NLP</h2>
+</div>
+
+
+
+<div class="login">
+
+
+    <form action="{{ url_for('predict') }}" method="post">
+
+        <label>
+<textarea class="textarea"
+          rows="50"
+          cols="50"
+          placeholder="Copy and Paste an article to see what the Logistic Regression model predicts!" required
+          type="text" name="article">
+</textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict
+        </button>
+    </form>
+
+    <br>
+    <br>
+    {{ prediction_text }}
+
+</div>
+</body>
+</html>
