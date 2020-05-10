@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132c91f8-2d31-4a41-92b5-79523424a1fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_tfidf_nb.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_tfidf_nb.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/transformer_tfidf_nb.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/transformer_tfidf_nb.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Logistic Regression Naive Bayes and Preprocessing-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Logistic Regression Naive Bayes and Preprocessing-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logistic Regression Naive Bayes and Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Logistic Regression Naive Bayes and Preprocessing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -36,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585683782917</updated>
       <workItem from="1585683789255" duration="17000" />
+      <workItem from="1589077187983" duration="559000" />
     </task>
     <servers />
   </component>
@@ -43,9 +45,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585683788547">
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1589077188073">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.-130.2560.1410@0.0.1920.1050" timestamp="1585683788547" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.-130.2560.1410@0.0.1920.1050" timestamp="1589077188073" />
   </component>
 </project>
