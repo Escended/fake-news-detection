@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 def get_label_prediction(model, X_test):
-    # get probabilities instead of predicted labels, since we want to collect top 3
+    # get probabilities
     probabilities = model.predict_proba(X_test)
 
     # get best fitting label
@@ -21,8 +21,8 @@ def get_label_prediction(model, X_test):
     return predictions
 
 
-loaded_model = pickle.load(open('model_tfidf_nb.pkl', 'rb'))
-loaded_transformer = pickle.load(open('transformer_tfidf_nb.pkl', 'rb'))
+loaded_model = pickle.load(open('model_tfidf_xgb.pkl', 'rb'))
+loaded_transformer = pickle.load(open('transformer_tfidf_xgb.pkl', 'rb'))
 
 
 @app.route('/')
