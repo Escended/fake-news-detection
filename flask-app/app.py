@@ -10,11 +10,11 @@ def get_label_prediction(model, X_test):
     # get probabilities
     probabilities = model.predict_proba(X_test)
 
-    # get best fitting label
-    best_n = np.argsort(probabilities, axis=1)[:, -1:]
+    # get label
+    best_label = np.argsort(probabilities, axis=1)[:, -1:]
 
     # get label prediction
-    predictions = [[model.classes_[predicted_cat] for predicted_cat in prediction] for prediction in best_n]
+    predictions = [[model.classes_[pred_class] for pred_class in prediction] for prediction in best_label]
 
     predictions = [item[::-1] for item in predictions]
 
