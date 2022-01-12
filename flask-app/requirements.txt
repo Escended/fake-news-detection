@@ -20,7 +20,7 @@ nltk==3.4.5
 node==0.9.25
 numpy==1.18.2
 odict==1.7.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 plumber==1.5
 pylint==2.4.4
 scikit-learn==0.22.2.post1
